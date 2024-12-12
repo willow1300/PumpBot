@@ -1,0 +1,40 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "axis": "^1.0.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^23.10.3",
+    "simple-keygen": "^1.0.3",
+    "uuid": "^11.0.3",
+    "winston": "^3.17.0"
+  },
+  "pkg": {
+    "scripts": [
+      "D:/webProjects/javafx-sdk-17.0.13/lib/*",
+      "dist/bot/PumpFunBot.js",
+      "dist/replies/ReplyManager.js",
+      "dist/replies/scraper.js",
+      "dist/replies/storage.js",
+      "dist/replies/validator.js",
+      "dist/utils/logger.js",
+      "dist/utils/keygen.js"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  }
+}
