@@ -30,6 +30,9 @@
       "dist/replies/validator.js",
       "dist/utils/logger.js",
       "dist/utils/keygen.js"
+    ],
+    "assets": [
+      "node_modules/puppeteer/.local-chromium/**/*"
     ]
   },
   "devDependencies": {
